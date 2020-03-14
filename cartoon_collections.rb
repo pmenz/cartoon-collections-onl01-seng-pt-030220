@@ -29,16 +29,16 @@ def find_the_cheese(array4)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if array4.include?("cheddar"|| "gouda"|| "camembert")
   shared = cheese_types & array4
-<<<<<<< HEAD
+
   return shared[0]
   
   else
    
-=======
+
   puts shared
   
 else
   nil
->>>>>>> 83e4a6569e58b08cca6686561c409cb693b5b1d6
+
 end
 end
